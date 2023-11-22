@@ -34,6 +34,9 @@ export default function Instructions() {
                   <li>
                     <p> Si caes en las fauces de un monstruo este se materializa atacará restando 1 hp.</p>  
                   </li>
+                  <li>
+                    <p>Cuando tu hp llegue a 0 caerás inconsciente y deberás esperar a que un compañero te pueda ayudar a levantarte, puedes esperar hasta 2-3 turnos.</p>
+                  </li>
                 </ul>
                 <br/>
                 <p> Todos los objetos se consiguen a través de los cofres, una vez un personaje abre un cofre este no se puede volver a abrir por el mismo jugador, pero sí por los demás.</p>
