@@ -19,8 +19,9 @@ const imagesList1 = [
 ];
 
 const imagesList2 = [
-  '/img4.png',
-  '/img5.png',
+  '/back.png',
+  '/back.png',
+  '/back.png',
 ];
 
 const imagesList3 = [
@@ -40,8 +41,15 @@ const imagesList3 = [
 ];
 
 const imagesList4 = [
-  '/img4.png',
-  '/img5.png',
+  '/imgd1.png',
+  '/imgd2.png',
+  '/imgd3.png',
+  '/imgd4.png',
+  '/imgd5.png',
+  '/imgd6.png',
+  '/imgd7.png',
+  '/imgd8.png',
+  '/imgd9.png'
 ];
 
 const getRandomImages = (list, count) => {
