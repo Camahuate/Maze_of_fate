@@ -1,0 +1,307 @@
+
+.page {
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('/fondo.png'); /* Cambia 'ruta/de/imagen.png' a la ubicación de tu imagen transparente */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+}
+
+.imagenesx3{
+  display: flex;
+}
+
+.base{
+  position: relative;
+  display: flex;
+  
+}
+
+html{
+  height: auto;
+  width: auto;
+}
+.container {
+  background:  url('/afondo.png');
+  padding-left: 30px;
+  padding-right: 5px ;
+  padding-top: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Hacer que el contenedor ocupe todo el ancho de la página */
+  height: 1000px;
+  margin: 0 auto; 
+}
+.container2 {
+  background:  url('/fondo.png');
+  background-size: cover;
+  padding: 13px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Hacer que el contenedor ocupe todo el ancho de la página */
+  height: 1500px;
+  margin: 0 auto; 
+}
+.textContainer{
+  text-align: justify;
+  display: flex;
+  width: 1000px;
+  height: 1100px;
+  margin-top: 0;
+  flex-direction: column;
+}
+.textContainer2 {
+  text-align: justify;
+  display: flex;
+  width: 100%;
+  max-width: 1000px; /* Cambiado a max-width para evitar que se desborde en pantallas más pequeñas */
+  margin: 60px auto; /* Establecer auto en margin-left y margin-right */
+  flex-direction: column;
+  align-items: center;
+}
+.textContainer2 p ul li{
+  text-align: justify;
+  margin: 0;
+  padding-left: 55px;
+  height: 1000px;
+  font-size:medium;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.textContainer2 li{
+  font-style: italic;
+}
+
+.sub-container {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  width: 1000px;
+  margin-top: 0;
+  flex-direction: column;
+}
+.justify{
+  padding-top: 50px;
+  padding-left: 300px;
+  font-weight: bold;
+}
+.sub-container2 {
+  background:  url('/fondoText.png');
+  background-size: cover;
+  text-align: justify;
+  display: flex;
+  padding-right: 200px;
+  height: 1260px;
+  width: 1000px;
+  margin-top: 0;
+  flex-direction: column;
+
+}
+
+.lootboxGallery {
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  width: 100%;
+  
+}
+.sublBox{
+  height: 100%;
+  justify-content: center;
+}
+button{
+  background: none;
+  border: 'none'; 
+  padding: '0';
+  margin: '0';
+  
+}
+.buttonBox button{
+  flex-direction: column;
+  width: 10%;
+  display: flex;
+  background-color: #DCAB5A;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px;
+}
+.volver{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.buttonLoot{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right:50px;
+  margin-left: 50px;
+  margin-top: 0;
+  background-color: #DCAB5A;
+  height: 30px;
+  border-radius: 10px;
+}
+.buttonLoot{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right:50px;
+  margin-left: 50px;
+  margin-top: 0;
+  border-radius: 10px;
+}
+.topButton{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  
+}
+.topButtonl{
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  width: 500px;
+  margin-left: 350px;
+  margin-right: 10px;
+}
+.topButtonr{
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  width: 500px;
+  margin-right: 310px;
+  margin-left: 0;
+}
+.titulo h1 {
+  font-size: 24px; /* Cambia el tamaño de fuente según tus preferencias */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  
+}
+.titulo2 h1 {
+  font-size: 24px; /* Cambia el tamaño de fuente según tus preferencias */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 130px;
+  
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column; /* Alinea los elementos uno debajo del otro */
+  align-items: center; /* Centra horizontalmente la imagen */
+  margin-top: 20px; /* Espacio superior opcional */
+  width: 100%;
+}
+
+/* En tu archivo ./globals.css */
+
+.previewImages {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente las imágenes */
+  width: 100%;
+  margin-left: 20px;
+}
+
+.previewImageContainer {
+  display: flex; /* Agregamos este estilo para que los elementos internos estén en línea */
+  align-items: center; /* Centra verticalmente la imagen */
+  position: relative;
+  margin-right: 5px; /* Ajusta la distancia entre las imágenes */
+}
+
+.previewImageContainer:last-child {
+  margin-right: 0; /* Sin margen a la derecha para la última imagen */
+}
+
+.previewImageContainer img {
+  width: 100px; /* Ancho deseado */
+  height: auto;
+}
+
+/* Estilos específicos para la imagen del medio */
+.previewImageContainer.middle img {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+/* Estilos generales para dispositivos móviles */
+
+@media screen and (max-width: 768px) {
+  .sub-container {
+    width: 100%;
+  }
+
+  .lootboxGallery,
+  .previewImages {
+    flex-direction: column;
+  }
+
+  .previewImageContainer {
+    width: 100%;
+  }
+
+  .buttonLoot,
+  .topButton,
+  .topButtonl,
+  .topButtonr {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .page {
+    height: auto; /* Ajusta la altura automáticamente */
+  }
+
+  .container {
+    height: auto; /* Ajusta la altura automáticamente */
+  }
+
+  .sub-container {
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  .lootboxGallery {
+    flex-direction: column; /* Muestra las cajas de saqueo en columna en lugar de fila */
+  }
+
+  .buttonBox {
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  .buttonLoot {
+    margin-left: 0; /* Elimina el margen izquierdo */
+  }
+
+  .titulo h1 {
+    margin-left: 0; /* Elimina el margen izquierdo */
+  }
+
+  .imageContainer {
+    margin-top: 10px; /* Reduce el espacio superior */
+  }
+
+  .previewImages {
+    margin-left: 0; /* Elimina el margen izquierdo */
+  }
+
+  .previewImageContainer {
+    margin-right: 0; /* Elimina el margen derecho */
+    margin-bottom: 10px; /* Agrega espacio inferior entre las imágenes */
+  }
+}
